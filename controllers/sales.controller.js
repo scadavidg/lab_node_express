@@ -1,16 +1,17 @@
-const getSales = (req,res) => {
-  
-}
-
-const createSale = (req,res) => {
+const SaleSchema = require('../models/sale')
+const getSales = (req, res) => {
 
 }
 
-const updateSale = (req,res) => {
+const createSale = (req, res) => {
 
 }
 
-const deleteSale = (req,res) => {
+const updateSale = (req, res) => {
+
+}
+
+const deleteSale = (req, res) => {
 
 }
 

@@ -2,6 +2,12 @@ const express = require('express');
 const app = express();
 const routes = require('./routes');
 const morgan = require('morgan');
+const mongoose = require('mongoose');
+const dbConfig = require('./config/db')
+
+mongoose.connect(dbConfig.dbStringConnect)
+    .then(db => console.log("db connected"))
+    .catch(err => console.error(err))
 
 const port = 3001;
 

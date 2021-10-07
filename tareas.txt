@@ -1,5 +1,7 @@
 1. definir estructura ✔️
 2. instalar configurar y probar mi servidor de express ✔️
 3. definir las rutas asociadas al crud de productos y ventas ✔️
-4. definir los controladores asociados al crud de productos
+4. definir los controladores asociados al crud de productos ✔️
+    4.1 Configurar mongodb
+    4.2 definir los metodos de create, list, delete and update para interactuar con mongo
 5. probar el crud de productos
