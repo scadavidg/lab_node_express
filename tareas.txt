@@ -1,0 +1,5 @@
+1. definir estructura
+2. instalar configurar y probar mi servidor de express
+3. definir las rutas asociadas al crud de prodcutos
+4. definir los controladores asociados al crud de productos
+5. probar el crud de productos
