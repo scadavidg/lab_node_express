@@ -1,10 +1,13 @@
 const { Router } = require('express');
 const router = Router();
 const { salesController } = require('../controllers');
+const verifyProducts = require('../mdl/VerifyProducts')
+
+router.get('/uno', salesController.getSale);
 
 router.get('/', salesController.getSales);
 
-router.post('/', salesController.createSale);
+router.post('/',verifyProducts, salesController.createSale);
 
 router.put('/', salesController.updateSale);
 

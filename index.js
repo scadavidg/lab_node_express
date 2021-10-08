@@ -11,7 +11,7 @@ mongoose.connect(dbConfig.dbStringConnect)
     .then(db => console.log("db connected"))
     .catch(err => console.error(err))
 
-const port = 3001;
+const port = 3002;
 
 
 app.use(morgan("dev"));

@@ -1,11 +1,10 @@
 const ProductSchema = require('../models/product')
 
-
 const getProduct = async (req, res) => {
     if (typeof req.body != 'undefined') {
         try {
-            let pruducto = await ProductSchema.findById(req.body.id);
-            res.json({ pruducto });
+            let pruduct = await ProductSchema.findById(req.body.id);
+            res.json({ pruduct });
         }
         catch (err) {
             console.log(err);
@@ -17,8 +16,8 @@ const getProduct = async (req, res) => {
 
 const getProducts = async (req, res) => {
     try {
-        let pruductos = await ProductSchema.find();
-        res.json({ pruductos });
+        let pruducts = await ProductSchema.find();
+        res.json({ pruducts });
     }
     catch (err) {
         console.log(err);

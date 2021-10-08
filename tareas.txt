@@ -5,3 +5,12 @@
     4.1 Configurar mongodb
     4.2 definir los metodos de create, list, delete and update para interactuar con mongo
 5. probar el crud de productos
+
+
+Cada venta debe contar con los siguientes atributos: 
+Identificador único de venta (Inmutable),
+el valor total de la venta,
+identificador, cantidad y precio unitario de cada producto,
+fecha de venta,
+documento de identificación 
+documento de vendedor 
